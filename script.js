@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
       existingButton.style.display = "none"; // Hide existing user button
     }
 
-    alert(`Logged in as ${username}.`);
+    alert(`Logged in as ${username}`);
 
     // Optionally, you can clear the form fields after submission
     // loginForm.reset();
